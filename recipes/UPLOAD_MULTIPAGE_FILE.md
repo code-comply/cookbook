@@ -9,8 +9,8 @@ Table of Contents:
 
 - ID of the organization that will own the plans
 - ID of the user that will own the plans
-- ID of the project that will include the plans
-- ID of the drawing set that will include the plans
+- [ID of the project that will include the plans](CREATE_PROJECT.md)
+- [ID of the drawing set that will include the plans](CREATE_SET.md)
 - [The request needs to be authenticated](AUTHENTICATION.md)
 
 ## Steps
