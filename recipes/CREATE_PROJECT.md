@@ -7,8 +7,6 @@ Table of Contents:
 
 ## Prerequisites:
 
-- ID of the organization that will own the project
-- ID of the user that will own the project
 - [The request needs to be authenticated](AUTHENTICATION.md)
 
 ## Steps
@@ -16,7 +14,7 @@ Table of Contents:
 1. Create a project
 
     Method: POST
-    URL: https://api-dev.codecomply.com/api/v1/project
+    URL: https://api-dev.codecomply.ai/api/v1/project
 
     Request Body:
     ```json
@@ -24,8 +22,6 @@ Table of Contents:
         "name": "My Project",
         "pid": "00000",
         "active": true,
-        "organization_id": "<ORGANIZATION_ID>",
-        "user_id": "<USER_ID>",
         "metadata": {
             "state": {
                 "id": "fl",

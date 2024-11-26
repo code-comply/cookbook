@@ -7,8 +7,6 @@ Table of Contents:
   
 ## Prerequisites:
 
-- ID of the organization that will own the plans
-- ID of the user that will own the plans
 - [ID of the project that will include the plans](CREATE_PROJECT.md)
 - [ID of the drawing set that will include the plans](CREATE_SET.md)
 - [The request needs to be authenticated](AUTHENTICATION.md)
@@ -18,7 +16,7 @@ Table of Contents:
 1. Create an upload file
 
     Method: POST
-    URL: https://api-dev.codecomply.com/api/v1/upload_file
+    URL: https://api-dev.codecomply.ai/api/v1/upload_file
 
     Request Body:
     ```json
@@ -45,7 +43,7 @@ Table of Contents:
 3. Activate the upload file
 
     Method: PUT
-    URL: https://api-dev.codecomply.com/api/v1/upload_file/<UPLOAD_FILE_ID>
+    URL: https://api-dev.codecomply.ai/api/v1/upload_file/<UPLOAD_FILE_ID>
 
     Request Body:
     ```json
